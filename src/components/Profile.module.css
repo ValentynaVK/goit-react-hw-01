@@ -1,0 +1,10 @@
+div {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.photo {
+  width: 250px;
+  height: 250px;
+}

@@ -1,30 +1,30 @@
-import css from '../components/Profile.module.css'
+import css from './Profile.module.css'
 export default function Profile({
    name, tag, location,image,stats,
     
 }){
     return (
-        <div>
-  <div>
+        <div className={css.profcontainer}>
+  <div className={css.photocontainer}>
     <img className={css.photo}
       src={image}
       alt="User avatar"
     />
-    <p>{name}</p>
-    <p>@{tag}</p>
-    <p>{location}</p>
+    <p className={css.proftext}>{name}</p>
+    <p className={css.text}>@{tag}</p>
+    <p className={css.text}>{location}</p>
   </div>
 
-  <ul>
-    <li>
+  <ul className={css.proflistcontainer}>
+    <li className={css.profitem}>
       <span>Followers</span>
       <span>{stats.followers}</span>
     </li>
-    <li>
+    <li className={css.profitem}>
       <span>Views</span>
       <span>{stats.views}</span>
     </li>
-    <li>
+    <li className={css.profitem}>
       <span>Likes</span>
       <span>{stats.likes}</span>
     </li>

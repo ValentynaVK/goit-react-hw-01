@@ -1,0 +1,28 @@
+.container {
+  border: 3px solid black;
+  width: 120px;
+  margin: 5px 0;
+  border-radius: 6px;
+}
+.ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+li {
+  list-style-type: none;
+}
+.list {
+  text-align: center;
+  margin-top: 5px;
+}
+.avatar {
+  display: block;
+  margin: 0, auto;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}

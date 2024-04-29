@@ -1,0 +1,49 @@
+.profcontainer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  width: 400px;
+  height: 500px;
+  border: solid black;
+  border-radius: 10px;
+}
+.photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #373535;
+  margin-left: 75px;
+}
+.proftext {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+.text {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #524f4f;
+}
+.proflistcontainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -13px;
+  margin-right: 50px;
+}
+.profitem {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 700;
+  font-size: 15px;
+  align-items: center;
+  border: #524f4f solid;
+  box-sizing: border-box;
+  padding: 20px 14px;
+}
